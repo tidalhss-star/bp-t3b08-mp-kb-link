@@ -1,412 +1,329 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" data-theme="midnight-void" data-build="0xf4a2c9b1">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>마포 노래방 링크 정보 - 위치, 가격, 시간 다 까발림</title>
-    <meta name="description" content="마포 노래방 링크 정보 총정리. 홍대입구 5분 거리, 24시 영업, 룸 가격, 부대시설, 주차까지 다 알려준다. 진짜 노래방 맛집 찾는 사람 여기 보셈.">
-    <meta name="keywords" content="마포 노래방 링크 정보, 마포 노래방 위치, 홍대 노래방 가격, 마포 24시 노래방, 마포 노래방 주차, 마포 노래방 룸, 마포 노래방 추천, 마포구 노래방 링크">
+    <meta name="description" content="마포 노래방 링크 — 준비 담당자를 위한 실무적 선택 가이드. 예약 시스템 연동, 인원 변동 대응, 정산 처리 등 운영 전 과정을 점검하는 전문 정보입니다.">
+    <meta name="keywords" content="마포 노래방 링크, 마포 KB 예약, 마포卡拉OK 관리, 마포卡拉O K 준비사항, 마포卡拉O K 운영 팁">
+    <meta name="generator" content="custom-cms-9421">
+    <!-- Design System & Theme -->
     <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-acid-yellow">
-    <link rel="canonical" href="https://t3b08-mp-kb-link.maphoshirts.com/about.html">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <title>마포 노래방 링크 | 상세 정보 및 운영 가이드</title>
     <!-- OG / Twitter -->
-    <meta property="og:title" content="마포 노래방 링크 정보 - 다 까발림">
-    <meta property="og:description" content="마포 노래방 링크, 위치부터 가격까지 전부 다 알려준다. 홍대입구 5분, 24시 영업, 가성비 미침.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://t3b08-mp-kb-link.maphoshirts.com/about.html">
-    <meta property="og:locale" content="ko_KR">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="마포 노래방 링크 정보 - 다 까발림">
-    <meta name="twitter:description" content="마포 노래방 링크, 위치부터 가격까지 전부 다 알려준다. 홍대입구 5분, 24시 영업, 가성비 미침.">
+    <meta property="og:title" content="마포 노래방 링크 — 준비 담당자를 위한 실무적 선택 가이드">
+    <meta property="og:description" content="마포 지역 특화 운영 환경과 연동 시스템, 그리고 현장 대응을 위한 종합 정보를 제공합니다.">
+    
     <style>
-        /* RESET & BASE */
-        *, *::before, *::after {
+        :root {
+            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --bg-color: #0a0b0e;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --accent-primary: #f43f6e; /* Pink Neon */
+            --accent-secondary: #2dd4bf; /* Teal Neon */
+            --border-color: #1e293b;
+            --container-padding: 2rem;
+            --radius: 0px; /* Brutalist sharp edges */
+            --transition-speed: 0.2s;
+        }
+
+        [data-theme="midnight-void"] {
+            --bg-color: #0a0b0e;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --accent-primary: #ec4899; /* Hot Pink */
+            --accent-secondary: #38bdf8; /* Sky Blue */
+        }
+
+        [data-theme="kr-neon-void"] {
+            --bg-color: #050505;
+            --text-main: #ffffff;
+            --text-muted: #d1d5db;
+            --accent-primary: #e879f9; /* Magenta */
+            --accent-secondary: #34d399; /* Emerald */
+        }
+
+        * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
         }
-        html {
-            font-size: 16px;
-            scroll-behavior: smooth;
-        }
+
         body {
-            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #1a1a1a;
-            color: #f0f0f0;
-            line-height: 1.4;
-            min-height: 100vh;
-        }
-        a {
-            color: #f7d51e;
-            text-decoration: none;
-            border-bottom: 2px solid transparent;
-            transition: all 0.2s ease;
-        }
-        a:hover {
-            color: #ffffff;
-            border-bottom-color: #f7d51e;
-        }
-        ul {
-            list-style: none;
-        }
-        /* TYPOGRAPHY - oversized raw */
-        h1 {
-            font-size: 4.5rem;
-            font-weight: 900;
-            line-height: 0.9;
-            text-transform: uppercase;
-            letter-spacing: -0.03em;
-            color: #f7d51e;
-            margin-bottom: 1rem;
-            word-break: break-word;
-        }
-        h2 {
-            font-size: 2.8rem;
-            font-weight: 800;
-            line-height: 1;
-            text-transform: uppercase;
-            letter-spacing: -0.02em;
-            color: #f7d51e;
-            margin-bottom: 1.5rem;
-            border-left: 8px solid #f7d51e;
-            padding-left: 1rem;
-        }
-        h3 {
-            font-size: 1.8rem;
-            font-weight: 700;
-            line-height: 1.1;
-            color: #ffffff;
-            margin-bottom: 0.8rem;
-        }
-        p {
-            font-size: 1.1rem;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: var(--font-family);
             line-height: 1.6;
-            margin-bottom: 1.2rem;
-            color: #d0d0d0;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
         }
-        strong {
-            color: #f7d51e;
-            font-weight: 700;
-        }
-        /* LAYOUT - dense, full bleed, asymmetric */
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 1.5rem;
+            padding: 0 var(--container-padding);
         }
-        .section {
-            padding: 4rem 0;
-            border-bottom: 3px solid #333;
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            color: var(--text-main);
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+            margin-bottom: 1rem;
         }
-        .section:last-child {
-            border-bottom: none;
+
+        h1 { font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; text-transform: uppercase; }
+        h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 700; border-bottom: 2px solid var(--accent-primary); padding-bottom: 0.5rem; display: inline-block; margin-top: 2.5rem;}
+        h3 { font-size: 1.5rem; font-weight: 600; color: var(--text-main); }
+        
+        p {
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
         }
-        /* HEADER / NAV */
-        nav {
-            background: #0d0d0d;
-            padding: 1rem 0;
-            border-bottom: 4px solid #f7d51e;
-            position: sticky;
+
+        /* Layout Components */
+        .sticky-header {
+            position: fixed;
             top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10, 11, 14, 0.95);
+            backdrop-filter: blur(12px);
             z-index: 100;
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--border-color);
         }
-        nav .container {
+
+        .header-content {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--container-padding);
         }
-        nav .logo a {
-            font-size: 1.8rem;
+
+        .logo {
+            font-size: 1.5rem;
             font-weight: 900;
+            color: var(--text-main);
             text-transform: uppercase;
-            color: #f7d51e;
-            border-bottom: none;
-            letter-spacing: -0.02em;
-        }
-        nav .logo a:hover {
-            color: #ffffff;
-        }
-        nav ul {
-            display: flex;
-            gap: 2rem;
-            align-items: center;
-        }
-        nav ul li a {
-            font-size: 1.1rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            padding: 0.3rem 0;
-            color: #f0f0f0;
-            border-bottom: 2px solid transparent;
-        }
-        nav ul li a:hover,
-        nav ul li a.active {
-            color: #f7d51e;
-            border-bottom-color: #f7d51e;
-        }
-        .tel-link {
-            display: inline-block;
-            background: #f7d51e;
-            color: #1a1a1a !important;
-            padding: 0.5rem 1.2rem !important;
-            font-weight: 800 !important;
-            border-radius: 0;
-            border-bottom: none !important;
-            transition: background 0.2s;
-        }
-        .tel-link:hover {
-            background: #ffffff;
-            color: #1a1a1a !important;
-        }
-        .hamburger-menu {
-            display: none;
-            font-size: 2rem;
-            color: #f7d51e;
+            letter-spacing: -0.05em;
             cursor: pointer;
-            background: none;
-            border: none;
-            padding: 0.3rem;
         }
-        /* CARDS - brutalist info blocks */
-        .info-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2rem;
-        }
-        .info-card {
-            background: #252525;
-            padding: 2rem;
-            border: 3px solid #333;
-            transition: border-color 0.3s;
-        }
-        .info-card:hover {
-            border-color: #f7d51e;
-        }
-        .info-card h3 {
-            font-size: 1.6rem;
-            margin-bottom: 1.2rem;
-            text-transform: uppercase;
-            color: #f7d51e;
-        }
-        .info-card p {
-            font-size: 1rem;
-            margin-bottom: 0.8rem;
-        }
-        .info-card .label {
-            font-weight: 700;
-            color: #ffffff;
-            display: block;
-            margin-bottom: 0.2rem;
-        }
-        .info-card .value {
-            font-size: 1.2rem;
-            color: #f0f0f0;
-            margin-bottom: 1rem;
-        }
-        /* FAQ */
-        .faq-list {
+
+        .logo span { color: var(--accent-primary); }
+
+        .capsule-nav {
             display: flex;
-            flex-direction: column;
             gap: 1.5rem;
         }
-        .faq-item {
-            background: #252525;
-            padding: 1.5rem;
-            border-left: 6px solid #f7d51e;
+
+        .capsule-nav a {
+            text-decoration: none;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius);
+            transition: all var(--transition-speed);
         }
-        .faq-item .question {
-            font-size: 1.3rem;
-            font-weight: 700;
-            color: #ffffff;
-            margin-bottom: 0.5rem;
+
+        .capsule-nav a:hover, .capsule-nav a.active {
+            background: rgba(244, 63, 110, 0.15);
+            color: var(--accent-primary);
         }
-        .faq-item .answer {
-            font-size: 1rem;
-            color: #d0d0d0;
-            line-height: 1.5;
+
+        /* Main Content */
+        .main-content {
+            margin-top: 140px; /* Header offset */
+            padding-bottom: 4rem;
         }
-        /* HIGHLIGHT BOX */
-        .highlight-box {
-            background: #f7d51e;
-            color: #1a1a1a;
-            padding: 2rem;
-            margin: 2rem 0;
-            border: 4px solid #ffffff;
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2.5rem;
         }
-        .highlight-box p {
-            color: #1a1a1a;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-        }
-        .highlight-box strong {
-            color: #000000;
-        }
-        /* RESPONSIVE */
+
         @media (max-width: 768px) {
-            h1 {
-                font-size: 2.8rem;
-            }
-            h2 {
-                font-size: 2rem;
-                padding-left: 0.8rem;
-            }
-            h3 {
-                font-size: 1.4rem;
-            }
-            nav ul {
-                display: none;
-                flex-direction: column;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: #0d0d0d;
-                padding: 1.5rem;
-                border-bottom: 4px solid #f7d51e;
-                gap: 1.2rem;
-            }
-            nav ul.open {
-                display: flex;
-            }
-            .hamburger-menu {
-                display: block;
-            }
-            .info-grid {
-                grid-template-columns: 1fr;
-                gap: 1.5rem;
-            }
-            .container {
-                padding: 0 1rem;
-            }
-            .section {
-                padding: 2.5rem 0;
-            }
+            .info-grid { grid-template-columns: 1fr; }
+            h1 { font-size: 2.5rem; }
         }
-        @media (max-width: 480px) {
-            h1 {
-                font-size: 2.2rem;
-            }
-            h2 {
-                font-size: 1.6rem;
-            }
-            body {
-                font-size: 15px;
-            }
+
+        .meta-card {
+            background: var(--bg-color);
+            border: 1px solid var(--border-color);
+            padding: 1.5rem;
+            border-radius: var(--radius);
         }
+
+        .highlight-box {
+            border-left: 4px solid var(--accent-secondary);
+            background: rgba(52, 211, 153, 0.05);
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .highlight-box p { margin-bottom: 0; color: var(--text-main); }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        ul li::before {
+            content: '>';
+            position: absolute;
+            left: 0;
+            color: var(--accent-primary);
+            font-weight: bold;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
     </style>
+  <link rel="canonical" href="https://t3b08-mp-kb-link.maphoshirts.com/about.html">
+  <meta property="og:url" content="https://t3b08-mp-kb-link.maphoshirts.com/about.html">
 </head>
-<body>
-    <nav>
-        <div class="container">
-            <div class="logo">
-                <a href="/">링크 노래방</a>
-            </div>
-            <button class="hamburger-menu" onclick="this.nextElementSibling.classList.toggle('open')" aria-label="메뉴 열기">☰</button>
-            <ul>
-                <li><a href="/">홈</a></li>
-                <li><a href="/info" class="active">정보</a></li>
-                <li><a href="/review">후기</a></li>
-                <li><a href="/price">가격</a></li>
-                <li><a href="tel:0507-1234-5678" class="tel-link">전화걸기</a></li>
-            </ul>
+<body data-theme="midnight-void">
+
+    <!-- Sticky Header -->
+    <header class="sticky-header">
+        <div class="header-content">
+            <div class="logo">마포<span style="color:var(--accent-primary)">링크</span></div>
+            <nav class="capsule-nav">
+                <a href="#" class="active">정보</a>
+                <a href="#">예약 시스템</a>
+                <a href="#">운영 팁</a>
+                <a href="#">연락처</a>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-    <main>
-        <section class="section">
-            <div class="container">
-                <h1>링크 노래방<br>정보 다 까발림</h1>
-                <p>야, 여기 마포 노래방 링크에 대해 궁금한 거 있으면 다 물어보셈. 내가 형아니까 다 알려줌. 위치부터 가격, 시간, 시설까지 — 진짜 노래방 맛집 찾는 사람들을 위해 모든 걸 다 공개한다. 한 번 보면 바로 알게 됨.</p>
-                <div class="highlight-box">
-                    <p><strong>🔥 요약:</strong> 홍대입구 5분 거리, 24시 영업, 룸 가격 2만원부터, 무료폰트, 주차 가능. 여기 오면 후회 없음.</p>
-                </div>
-            </div>
+    <!-- Main Content -->
+    <main class="container main-content">
+        
+        <section class="info-grid">
+            <article>
+                <h1>마포 노래방 링크: 운영 가이드</h1>
+                <p>
+                    마포 지역 특화 환경에서 안정적인 서비스를 제공하기 위한 핵심 정보입니다. 
+                    본 페이지는 단순한 주소나 연동 정보뿐만 아니라, 실제 현장에서 마주할 수 있는 
+                    상황별 변수 (인원 변동, 장비 점검, 정산 처리 등) 를 포함한 종합 가이드를 제공합니다.
+                </p>
+            </article>
+
+            <aside class="meta-card">
+                <h3>기본 정보</h3>
+                <ul>
+                    <li><strong>지역:</strong> 마포구 (홍대입구, 망원동 등)</li>
+                    <li><strong>업종:</strong>卡拉OK / 노래방</li>
+                    <li><strong>연결 시스템:</strong> KB 예약 및 연동 지원</li>
+                </ul>
+            </aside>
+
+            <section class="content-wrapper">
+                <h2>1. 지역 환경과 운영 시그널</h2>
+                <p>
+                    마포는 단순히 서울의 서쪽 끝에 위치한 지리적 개념을 넘어, 
+                    젊은 층이 밀집하고 트렌드가 빠르게 변하는 '스트리트' 특성이 뚜렷합니다. 
+                    이곳에서 노래방 링크를 운영하거나 방문할 때 가장 중요한 것은 
+                    단순한 접속뿐만 아니라 지역 내 환경에 대한 이해입니다.
+                </p>
+                <p>
+                    특히 마포는 대학가와 번화가의 경계선상에 위치해 있어, 
+                    학생들과 직장인, 가족 단위 방문객이 공존하는 복합적인 수요를 보입니다. 
+                    따라서 운영 가이드를 작성할 때도 '일반적인 오피스 시간'을 기준으로 삼기보다, 
+                    주말이나 금요일 저녁과 같은 피크 시간대, 그리고 학기 시작/종료 시기 등 
+                    계절적 요소를 고려한 유연한 대응이 필요합니다.
+                </p>
+            </section>
+
+            <section class="content-wrapper">
+                <h2>2. 예약 시스템 및 연동 가이드</h2>
+                <p>
+                    현대적인 운영 환경에서는 '마포 KB 예약' 시스템을 활용한 사전 조율이 필수적입니다. 
+                    이 시스템은 단순히 시간대를 선택하는 것을 넘어, 실제 현장의 인원 변동이나 
+                    장비 상태 등을 실시간으로 반영할 수 있는 기능을 제공합니다. 
+                    예를 들어, 당일 10 명으로 예정한 경우, 방문객이 5 명 줄어든 상황을 
+                    시스템에 즉시 입력하지 않으면 공간 활용도가 떨어질 수 있습니다.
+                </p>
+                <p>
+                    또한, '卡拉 OK' 관련 연동 서비스는 예약뿐만 아니라 정산 처리까지 포함할 수 있습니다. 
+                    이는 특히 그룹 단위 예약 시 중요한 요소입니다. 링크를 통해 생성된 데이터를 
+                    엑셀이나 회계 프로그램과 자동 연동하여, 방문일 다음 날까지 잔금을 
+                    명확히 정리하는 프로세스를 설정해두면 운영 효율이 극대화됩니다.
+                </p>
+            </section>
+
+            <aside class="highlight-box">
+                <h3>Tip: 상황별 준비사항</h3>
+                <ul>
+                    <li><strong>인원 변동:</strong> 당일 50% 이상 감소 시 재예약 또는 공간 축소 요청 가능.</li>
+                    <li><strong>장비 점검:</strong> 방문 1 시간 전 음향 및 조명 상태 확인 권장.</li>
+                    <li><strong>정산 처리:</strong> 카드 결제 시 소액 수수료 부과 여부 사전 확인.</li>
+                </ul>
+            </aside>
+
+            <section class="content-wrapper">
+                <h2>3. 장비 및 기술적 요구사항</h2>
+                <p>
+                    마포 지역의 노래방 링크는 최신 트렌드를 반영한 고해상도 디스플레이와 
+                    저지연 오디오 시스템을 기본으로 합니다. 하지만 단순한 사양 이상으로, 
+                    네트워크 안정성이 중요한 요소입니다. 특히 실시간 예약 시스템과 연동되는 경우, 
+                    인터넷 연결이 끊기지 않는지 확인하는 것이 필수적입니다.
+                </p>
+                <p>
+                    또한, 방문객이 직접 기기를 조작할 수 있는 환경 (UI/UX) 이 직관적이어야 합니다. 
+                    복잡한 메뉴 구조나 숨겨진 설정 항목은 방문객의 진입 장벽을 높일 수 있습니다. 
+                    따라서 'Street Brutalist' 스타일의 간결하고 강력한 디자인 시스템을 적용하여, 
+                    가장 필요한 기능만 노출되도록 구성하는 것이 좋습니다.
+                </p>
+            </section>
+
+            <section class="content-wrapper">
+                <h2>4. 위치 및 접근성 안내</h2>
+                <p>
+                    마포는 지하철 2 번선, 6 번선 등 주요 교통 노선이 지나가는 곳으로, 
+                    대중교통을 이용한 접근이 용이합니다. 하지만 노래방 링크의 입구가 지하나 
+                    골목길에 위치하는 경우가 많으므로, 방문 전 정확한 위치 정보를 확인하는 것이 중요합니다.
+                </p>
+                <p>
+                    주차 공간이 제한된 지역도 있으므로, 차량 이용 시 근처 주차장 위치를 미리 파악하거나, 
+                    대중교통 중심의 이동 경로를 계획해야 합니다. 또한, 1 층에 엘리베이터가 없는 경우 등 
+                    물리적 접근 장벽이 있을 수 있으므로, 방문 가능 시간대와 동선을 고려한 안내가 필요합니다.
+                </p>
+            </section>
+
         </section>
 
-        <section class="section">
-            <div class="container">
-                <h2>📍 위치 & 오시는 길</h2>
-                <div class="info-grid">
-                    <div class="info-card">
-                        <h3>주소</h3>
-                        <span class="label">도로명</span>
-                        <span class="value">서울 마포구 와우산로 94, 2층</span>
-                        <span class="label">지번</span>
-                        <span class="value">서교동 123-45</span>
-                        <p>홍대입구역 3번 출구에서 도보 5분. 걸어오다 보면 노란 간판이 눈에 띌 거임. 길 잃어버리면 전화해라, 형이 데리러 감.</p>
-                    </div>
-                    <div class="info-card">
-                        <h3>대중교통</h3>
-                        <span class="label">지하철</span>
-                        <span class="value">홍대입구역 (2호선, 경의중앙선, 공항철도) 3번 출구</span>
-                        <span class="label">버스</span>
-                        <span class="value">마포02, 5713, 7016 — 홍대입구역 정류장 하차</span>
-                        <p>버스 타고 오면 정류장에서 2분 거리. 진짜 가깝다. 밤에 늦게 와도 괜찮아, 24시 영업이니까.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+    </main>
 
-        <section class="section">
-            <div class="container">
-                <h2>⏰ 영업 시간 & 연락처</h2>
-                <div class="info-grid">
-                    <div class="info-card">
-                        <h3>영업 시간</h3>
-                        <span class="label">매일</span>
-                        <span class="value">24시간 영업</span>
-                        <p>맞다, 24시다. 새벽 3시에 갑자기 노래 부르고 싶어도 여기 오면 됨. 주말에도 쉬는 날 없음. 진짜 365일 돌아감.</p>
-                    </div>
-                    <div class="info-card">
-                        <h3>연락처</h3>
-                        <span class="label">전화</span>
-                        <span class="value">0507-1234-5678</span>
-                        <span class="label">카카오톡</span>
-                        <span class="value">@링크노래방</span>
-                        <p>전화하면 바로 받음. 예약도 가능하고, 룸 상황도 물어보셈. 카톡으로 문의하면 더 빠를 때도 있음.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <!-- Footer -->
+    <footer class="container footer">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <p>&copy; 2024 마포 노래방 링크 운영팀. All rights reserved.</p>
+            <p style="margin-top: 0.5rem; font-size: 0.85rem;">본 페이지의 정보는 실시간 상황에 따라 변동될 수 있습니다.</p>
+        </div>
+    </footer>
 
-        <section class="section">
-            <div class="container">
-                <h2>🎤 시설 & 서비스</h2>
-                <div class="info-grid">
-                    <div class="info-card">
-                        <h3>룸 정보</h3>
-                        <span class="label">소형룸 (2-4인)</span>
-                        <span class="value">2만원 ~ 3만원</span>
-                        <span class="label">중형룸 (4-6인)</span>
-                        <span class="value">3만원 ~ 5만원</span>
-                        <span class="label">대형룸 (6-10인)</span>
-                        <span class="value">5만원 ~ 8만원</span>
-                        <p>룸마다 음향 시설 다름. 소형룸도 괜찮은데, 대형룸은 진짜 미친 사운드. 무료 마이크 2개 기본, 추가 가능.</p>
-                    </div>
-                    <div class="info-card">
-                        <h3>부대시설</h3>
-                        <span class="label">무료폰트</span>
-                        <span class="value">모든 룸 제공</span>
-                        <span class="label">음료</span>
-                        <span class="value">무료 제공 (콜라, 사이다, 물)</span>
-                        <span class="label">주차</span>
-                        <span class="value">건물 지하 주차장 (2시간 무료)</span>
-                        <p>차 가지고 와도 된다. 주차장 좁은 편인데, 형이 자리 내줌. 무료 음료는 기본, 더 시키면 추가 금액.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section">
-            <div class="container">
-                <h2>💬 자주 묻는 질문</h2>
-                <div class="faq-list">
-                    <div class="faq-item">
-                        <div class="question">Q: 예약해야 되나요?</div>
-                        <div class="answer">A: 꼭 그래야 하는 건 아님. 근데 주말이나 저녁 시간대는 예약하는 게 좋음. 전화나 카톡으로 하면 5분 컷.</div>
-                    </div>
-                    <div class="faq-item">
-                        <div class="question">Q: 노래방 기계는 어떤 거 사용해요?</div>
-                        <div class="answer">A: TJ미디어 최신형. 금영도 있음. 곡 수는 6만 곡 넘음. 최신 노래도 바로 업뎃됨.</div>
 </body>
 </html>
